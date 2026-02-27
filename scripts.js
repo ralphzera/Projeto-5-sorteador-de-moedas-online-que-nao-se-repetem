@@ -35,7 +35,7 @@ function gerarNumero() {
     // ja essa função pega o indice sorteado e retira ele e o numero correspondente, assim impedindo a repetição 
 
 
-    console.log(numeroSorteado);
+    alert(numeroSorteado);
 
     // Se acabaram os números
     if (numerosDisponiveis.length === 0) {
